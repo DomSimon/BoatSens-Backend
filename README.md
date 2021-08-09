@@ -20,16 +20,18 @@ https://github.com/DomSimon/BoatSens-Backend/blob/main/src/main/kotlin/sensors_b
 
 
 ### Direct access to the API is available at:  
-Last 1h:  
-http://ec2-3-68-226-39.eu-central-1.compute.amazonaws.com:8080/api/last1h
 
-Between two Timestamps:
+Between two Timestamps:  
 http://ec2-3-68-226-39.eu-central-1.compute.amazonaws.com:8080/api/between/2021-07-12T09:38/2021-07-12T09:40
 
-Hottest recognized Temperature:
+Last one hour:  
+http://ec2-3-68-226-39.eu-central-1.compute.amazonaws.com:8080/api/last1h
+
+
+Hottest recognized Temperature:  
 http://ec2-3-68-226-39.eu-central-1.compute.amazonaws.com:8080/api/hottest_day
 
-Coldest recognized Temperature:
+Coldest recognized Temperature:  
 http://ec2-3-68-226-39.eu-central-1.compute.amazonaws.com:8080/api/coldest_day
 
 ### Data is provided via REST API as JSON in the form of

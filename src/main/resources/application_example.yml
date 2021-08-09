@@ -1,0 +1,15 @@
+#Rename this file to application.yml
+spring.datasource.url: jdbc:postgresql://databasename.eu-central-1.rds.amazonaws.com:5432/ #Paste your datasource here in given Format
+spring.datasource.username: #Paste your username here
+spring.datasource.password: #Paste your password here
+spring.jpa.hibernate.ddl-auto: none
+spring.jpa.show-sql: true
+spring.jpa.properties.hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.properties.hibernate.format_sql: true
+
+server.error.include-message: always
+spring:
+  jpa:
+    generate-ddl=true:
+    hibernate:
+      ddl-auto:
